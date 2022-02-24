@@ -1,0 +1,99 @@
+@import "Font.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.content1 {
+    display: flex;
+    position: relative;
+
+    flex: 1;
+    height: 100vh;
+    z-index: 1;
+}
+
+.isicontent1 {
+    margin: auto;
+    width: 500px;
+
+    padding-bottom: 10px;
+
+    margin-right: 80px;
+    margin-top: 250px;
+
+
+}
+
+.isicontent1 h1 {
+    font-size: 44px;
+    letter-spacing: 0.2rem;
+    margin-bottom: 25px;
+    color: #fca311;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    color: black;
+}
+
+h3:nth-child(5) {
+    margin-bottom: 45px;
+}
+
+.explore {
+    margin-top: 45px;
+    padding: 10px 30px;
+    background-color: #212529;
+    text-decoration: none;
+    color: white;
+
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+.explore:hover {
+    background-color: rgb(0, 0, 0, .65);
+
+}
+
+.content2 {
+    position: relative;
+
+    flex: 1;
+    overflow: hidden;
+    height: 100vh;
+    z-index: 2;
+}
+
+.sally {
+    position: absolute;
+    margin: auto;
+    width: 500px;
+    top: 140px;
+    right: 40px;
+    z-index: 2;
+
+}
+
+.sally2 {
+    position: absolute;
+    margin: auto;
+    width: 500px;
+    top: 240px;
+    right: 40px;
+    z-index: 1;
+
+}
