@@ -18,7 +18,7 @@
 }
 
 .navbar {
-  background-color: #fca311;
+  background-color: white;
   top: 0;
   position: fixed;
   display: flex;
@@ -28,7 +28,7 @@
   z-index: 9;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 3px 25px rgba(0, 0, 0, .35);
+  box-shadow: 0px 3px 25px rgba(119, 119, 119, 0.35);
 }
 
 .transition {
